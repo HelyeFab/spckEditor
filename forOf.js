@@ -33,3 +33,18 @@ function sum(arr) {
 }
 
 console.log(sum([100, 3, -3])); //-> 100
+
+
+const newNumbers = [10, 20, 60]
+
+const med = ((arr) => {
+    let acc = 0;
+
+    for (let n of arr) {
+        acc+= n
+    }
+    
+    return acc / (newNumbers.length);
+})
+
+console.log(med(newNumbers));

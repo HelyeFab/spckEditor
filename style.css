@@ -22,8 +22,8 @@ section {
 }
 
 .squares {
-     max-height: 200px;
-     max-width: 200px;
+     height: 200px;
+     width: 200px;
      border: 2px solid black
 }
 

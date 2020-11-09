@@ -58,7 +58,7 @@ const itemInBasket = shopCart.filter(item => item.inBasket === true);
 const totalShop = itemInBasket.reduce((acc, el) => (acc + el.price), 0);
 const cartAverage = totalShop / itemInBasket.length ;
 
-
+console.log(itemInBasket);
 console.log(totalShop);
 console.log(cartAverage);
 

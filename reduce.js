@@ -67,3 +67,19 @@ console.log(cartAverage);
 // const average = myNumbers.reduce((acc, el) => (acc + el))/ myNumbers.length
 
 // console.log(average);
+
+
+
+// const cart = [{
+//     name: "Bike",
+//     price: 1000
+//   },
+//   {
+//     name: "TV",
+//     price: 2000
+//   }
+// ]
+
+// const cartTotal = cart.reduce((acc, el) => acc + el.price, 0);
+
+// console.log(cartTotal);

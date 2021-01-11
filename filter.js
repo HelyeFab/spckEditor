@@ -18,5 +18,8 @@ const shopCart = [{
 
 const inBasket = shopCart.filter(item => item.inBasket === true);
 
+const isValue = shopCart.filter(el => el.price < 50);
+
 console.log(inBasket);
 console.log(inBasket.length);
+console.log(isValue);

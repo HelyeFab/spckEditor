@@ -39,15 +39,3 @@ for (let i = 0; i < shopCart.length; i++){
 shopCart.forEach((el) =>
     console.log(el.item)
 )
-
-
-const links = document.querySelector('.ul li');
-
-links.forEach((link) => {
-    link.addEventListener('click', () => {
-        links.forEach((link) => link.classList.remove('.active'));
-        link.classList.add('.active');
-    })
-})
-
-
